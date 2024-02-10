@@ -1,7 +1,3 @@
-:root{
---font-color: white;
-}
-
 body {
   padding: 0px;
   margin: 0px;
@@ -172,7 +168,6 @@ h1 {
   margin: 0;
   font-family: 'Indie Flower', cursive;
   font-size: 1.5em;
-  color: var(--font-color);
   
 }
 
