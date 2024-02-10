@@ -19,6 +19,7 @@
     width: 60vw;
     max-width: 500px;
     top: 0;
+    font-family: 'Indie Flower', cursive;
   }
 
   .leaflet-control-attribution {
