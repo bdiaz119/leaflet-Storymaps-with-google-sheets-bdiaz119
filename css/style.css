@@ -1,3 +1,7 @@
+:root{
+--color-switch: #ffffff;
+}
+
 body {
   padding: 0px;
   margin: 0px;
@@ -166,9 +170,9 @@ a.source:visited {
 /* Storymap title & subtitle */
 h1 {
   margin: 0;
-  font-family: monospace;
-  font-size: 1.5em;
-  
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+  color:var(--color-switch);
 }
 
 h2 {
