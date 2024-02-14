@@ -177,6 +177,7 @@ h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 2em;
   color:var(--color-switch);
+  padding: 0.5em;
 }
 
 h2 {
