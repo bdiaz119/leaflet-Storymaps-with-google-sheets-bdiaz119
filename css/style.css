@@ -55,7 +55,7 @@ body {
   position: absolute;
   left: 0;
   top: 203px;
-  background-color: white;
+  background-color: var(--white);
   width: 100vw;
   z-index: 100;
   margin: 0;
@@ -93,7 +93,7 @@ body {
   height: 200px;
   max-height: 200px;
   width: 100%;
-  border: 10px dotted var(--white);
+  border: 10px solid var(--white);
 }
 
 .audio-container {
