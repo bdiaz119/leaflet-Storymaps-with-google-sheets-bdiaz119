@@ -175,9 +175,9 @@ a.source:visited {
 h1 {
   margin: 0;
   font-family: 'Indie Flower', cursive;
-  font-size: 2em;
+  font-size: 3em;
   color:var(--white);
-  padding: 2em;
+  padding: 1.5em;
 }
 
 h2 {
