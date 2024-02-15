@@ -58,13 +58,12 @@
 
   <script type="text/javascript">
     // Create the Leaflet map with a generic start point
-    var map = L.map('map', {
-      center: [0, 0],
-      zoom: 1,
-      scrollWheelZoom: false,
-      zoomControl: false,
-      tap: false
-    });
+  var Jawg_Dark = L.tileLayer('https://tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token={accessToken}', {
+	   attribution: '<a href="https://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+     center: [0, 0],
+	   accessToken: '<your accessToken>'
+});
+      
   </script>
 
   <script type="text/javascript" src="google-doc-url.js"></script>
