@@ -93,6 +93,7 @@ body {
   height: 200px;
   max-height: 200px;
   width: 100%;
+  border: 10px dotted var(--white);
 }
 
 .audio-container {
