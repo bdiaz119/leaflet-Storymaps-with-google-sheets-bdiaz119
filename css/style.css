@@ -87,8 +87,11 @@ body {
   transform: translateY(-50%);
 }
 .img-container {
-  text-align: center;
-  border: 5px solid var(--white);
+  margin: 0;
+  margin-bottom: 5px;
+  height: 200px;
+  max-height: 200px;
+  width: 100%;
 }
 
 .audio-container {
