@@ -45,7 +45,7 @@ body {
 }
 
 #space-at-the-bottom {
-  height: 200px;
+  height: 100px;
   margin: 0;
   text-align: center;
   padding-top: 150px;
@@ -87,8 +87,6 @@ body {
   transform: translateY(-50%);
 }
 .img-container {
-  margin: 0;
-  margin-bottom: 5px;
   text-align: center;
   border: 5px solid var(--white);
 }
@@ -114,7 +112,7 @@ body {
   color: gray;
 }
 a.source:visited {
-  color: grey;
+  color: red;
 }
 
 .description {
