@@ -3,6 +3,7 @@
 }
 
 :root{
+--black: #000000;
 --white: #ffffff;
 }
 
@@ -55,7 +56,7 @@ body {
   position: absolute;
   left: 0;
   top: 203px;
-  background-color: var(--white);
+  background-color: var(--black);
   width: 100vw;
   z-index: 100;
   margin: 0;
@@ -82,7 +83,7 @@ body {
   padding-right: 2px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid var(--white);
+  border: 3px solid var(--black);
 
   /* Three lines that center vertically */
   position: relative;
@@ -187,5 +188,5 @@ h2 {
   font-size: 1.1em;
   font-weight: normal;
   font-family: 'Indie Flower', cursive;
-  color:var(--color-switch);
+  color:var(--white);
 }
