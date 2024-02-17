@@ -74,12 +74,13 @@ body {
 }
 
 .chapter-container img {
-  height: auto;
-  width: auto;
+  height: 100%;
+  width: 100%;
   max-height: 100%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  border: 3px solid var(--white);
 
   /* Three lines that center vertically */
   position: relative;
