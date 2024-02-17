@@ -86,15 +86,15 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-
+img{
+  border-top: 5px solid var(--white);
+}
 .img-container {
   margin: 0;
   margin-bottom: 5px;
   height: 200px;
   max-height: 200px;
   width: 100%;
-  border-top: 5px solid var(--white);
-  border-bottom: 5px solid var(--white);
 }
 
 .audio-container {
