@@ -87,7 +87,7 @@ body {
   transform: translateY(-50%);
 }
 img{
-  border-top: 5px solid var(--white);
+  border: 5px solid var(--white);
 }
 .img-container {
   margin: 0;
